@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #1f1f1f; /* Dark form background */
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    color: #e0e0e0; /* Light color for label */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #333; /* Dark input background */
+    color: #fff; /* Light text in input */
+}
+
+button {
+    background-color: #ffcc66; /* Accent color */
+    color: #4b2e2e;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e6b85a; /* Lighter button hover */
+}
+
+input[type="text"]:focus {
+    background-color: #444; /* Focused input background */
+    border: 2px solid #ffcc66; /* Accent border color when focused */
+}
+

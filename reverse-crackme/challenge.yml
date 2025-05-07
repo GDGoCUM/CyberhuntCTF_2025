@@ -1,0 +1,39 @@
+name: Simple Crackme
+author: Ong
+category: Reverse Engineering
+description: just a simple reverse process
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 50 
+    minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+attempts: 5
+
+flags:
+- Hunt{a3465d5e5ee234ba_crackme}
+
+files:
+- dist/crackme
+
+topics:
+- disassembly
+
+tags:
+- reverse
+- static analysis
+
+hints:
+- Do you know about xor encryption ?
+
+requirements: null
+
+state: hidden
+
+version: '0.1'

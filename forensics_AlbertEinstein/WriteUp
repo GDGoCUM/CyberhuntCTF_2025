@@ -1,0 +1,15 @@
+(kali㉿kali)-[~/Downloads]
+└─$ hexedit Einstein.jpg 
+                                                                                                                                                                                                                                           
+┌──(kali㉿kali)-[~/Downloads]
+└─$ steghide extract -sf Einstein.jpg
+Enter passphrase: E=mc^2
+wrote extracted data to "flag.txt".
+                                                                                                                                                                                                                                           
+┌──(kali㉿kali)-[~/Downloads]
+└─$ cat flag.txt  
+SHVudHtBMWIzcnRfRTFuczczaW5fczNjcjN0fQ==
+                                                                                                                                                                                                                                           
+┌──(kali㉿kali)-[~/Downloads]
+└─$ echo "SHVudHtBMWIzcnRfRTFuczczaW5fczNjcjN0fQ=="|base64 -d 
+Hunt{A1b3rt_E1ns73in_s3cr3t}                                                                                                                                                                                                                                           

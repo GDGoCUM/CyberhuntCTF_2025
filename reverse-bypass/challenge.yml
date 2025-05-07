@@ -1,0 +1,40 @@
+name: Bypass
+author: Ong
+category: Reverse Engineering
+description: Do you know how to bypass ?
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+image: null
+protocol: null
+host: null
+healthcheck: null
+
+attempts: 5
+
+flags:
+- Hunt{simple_gf18_hEl_byPa11sing}
+
+files:
+- dist/bypass
+
+topics:
+- disassembly
+
+tags:
+- reverse
+- dynamic analysis
+
+hints:
+- Do you know some dynamic analysis tool ?
+
+requirements: null
+
+state: hidden
+
+version: '0.1'
